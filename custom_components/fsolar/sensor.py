@@ -28,7 +28,7 @@ from .const import DOMAIN
 from .coordinator import FSolarDataUpdateCoordinator
 
 
-@dataclass(frozen=True, kwargs_only=True)
+@dataclass(frozen=True, kw_only=True)
 class FSolarSensorDescription(SensorEntityDescription):
     """Class describing FSolar sensor entities."""
 
