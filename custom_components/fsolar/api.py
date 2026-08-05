@@ -3,10 +3,10 @@ from typing import Any
 
 import aiohttp
 
-from fsolar.consts import BASE_URL
-from fsolar.device import FSolarDevice
-from fsolar.plant import FSolarPlant
-from fsolar.rsa import encrypt
+from .const import BASE_URL
+from .device import FSolarDevice
+from .plant import FSolarPlant
+from .rsa import encrypt
 
 
 class FSolarApiError(Exception):
