@@ -1,0 +1,10 @@
+{
+  "domain": "fsolar",
+  "name": "FelicitySolar Integration",
+  "codeowners": ["@mintia11"],
+  "config_flow": true,
+  "documentation": "https://github.com/mintia11/fsolar",
+  "iot_class": "cloud_polling",
+  "requirements": ["cryptography>=41.0.0"],
+  "version": "0.1.0"
+}
