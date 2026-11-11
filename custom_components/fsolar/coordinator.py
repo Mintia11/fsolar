@@ -23,7 +23,7 @@ class FSolarDataUpdateCoordinator(DataUpdateCoordinator[dict]):
             hass,
             _LOGGER,
             name=DOMAIN,
-            update_interval=timedelta(seconds=60),
+            update_interval=timedelta(seconds=30),
         )
         self.entry_data = entry_data
         self.client = FSolarApiClient(async_get_clientsession(hass))
